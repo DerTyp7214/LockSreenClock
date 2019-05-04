@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2019.
+  ~ Created by Josua Lengwenath
+  -->
+
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:key="general"
+        android:title="General">
+        <com.dertyp7214.preferencesplus.preferences.BottomSheetPreference
+            android:defaultValue="1"
+            android:entries="@array/entries"
+            android:entryValues="@array/values"
+            app:roundedCorners="true"
+            android:key="list"
+            android:summary="@string/def"
+            android:title="@string/pref" />
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

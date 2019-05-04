@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="values">
+        <item>Bubble Clock</item>
+        <item>Stretch Analog Clock</item>
+        <item>Text Clock</item>
+        <item>@string/def</item>
+    </array>
+    <array name="entries">
+        <item>com.android.keyguard.clock.BubbleClockController</item>
+        <item>com.android.keyguard.clock.StretchAnalogClockController</item>
+        <item>com.android.keyguard.clock.TypeClockController</item>
+        <item>null</item>
+    </array>
+</resources>

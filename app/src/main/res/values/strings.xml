@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LockscreenClock Switcher</string>
+    <string name="pref">LockscreenClock Style</string>
+    <string name="def">Normal Clock</string>
+</resources>
